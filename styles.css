@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:"Oswald", sans-serif;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin: 0  auto;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.navegacion-principal {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+}
+
+.img_marca {
+    width: 50px;
+    height: 50px;
+}
+
+.navegacion-principal__menu {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion-principal__menu-derecha{
+    list-style: none;
+}
+
+.cabecera-grid {
+    display: grid;
+    width: 86%;
+    grid-template-rows: auto auto auto ;
+    gap: 6px;
+    margin: 0 auto;
+}
+
+
+.cabecera_center{
+    text-align: center;
+}
+
+
+
+.cabecera{
+    padding-top: 40px;
+    margin-top: 20px;
+    height: 200px;
+    background-image: url(/Assets/Imagenes/showcase.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% 600px;
+    color: white
+}
+
+     
+.boton {
+    grid-template-columns: 1fr;
+    width: 100px;
+    height: 36px;
+    margin: 0 auto;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 20px;
+}
+
+
+.tarjetas-noticias {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+
+.tarjetas-noticias__tarjeta {
+    text-align: center;
+}
+
+.img_size {
+    width: 100%;
+    height: 200px;
+}
+
+.banner-tarjetas-uno__contenido {
+    display: grid;
+    grid-template-rows:auto auto auto;
+    width: 42%;
+    gap: 10px;
+    margin: 0 auto;
+}
+.banner-tarjetas-uno {
+    height: 200px;
+    background-image: url(/Assets/Imagenes/tech-red.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% 400px;
+    color: white;
+    margin-top:20px;
+}
+
+.img-features {
+    height: 170px;
+    width: 100%;
+}
+
+.section-img-center {
+    text-align: center;
+}
+
+.boton1{
+    grid-template-columns: 1fr;
+    width: 125px;
+    height: 40px;
+    margin: 10px auto;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.banner-tarjetas-dos-grid {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-tarjetas-dos__contenido {
+    display: grid;
+    width: 40%;
+    margin: 0 auto;
+    gap: 10px 0px;
+}
+
+.banner-tarjetas-dos {
+    height: 200px;
+    background-image: url(/Assets/Imagenes/Image-five.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% 700px;
+    color: white;
+    margin-top:20px;
+}
+
+
+.social__enlaces {
+    text-align: center;
+}
+
+.social-p-center {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.icons-size {
+   font-size: 30px;
+   color: white;
+   margin: 4px;
+}
+
+
+.pie {
+    width: 100%;
+    height: 130px;
+    background-color: #3b4851;
+    margin-top: 20px;
+}
+
+.enlaces-pie__contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.enlaces-pie__lista {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+
+footer, li {
+    margin: 10px;
+}
+
+footer, a {
+    font-size: 12px;
+}
+
+.h3{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    
+}
