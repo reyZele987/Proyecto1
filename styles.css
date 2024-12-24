@@ -64,7 +64,7 @@ a {
     padding-top: 40px;
     margin-top: 20px;
     height: 200px;
-    background-image: url(/Assets/Imagenes/showcase.jpg);
+    background-image: url(./Assets/Imagenes/showcase.jpg);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: 100% 600px;
@@ -108,7 +108,7 @@ a {
 }
 .banner-tarjetas-uno {
     height: 200px;
-    background-image: url(/Assets/Imagenes/tech-red.jpg);
+    background-image: url(./Assets/Imagenes/tech-red.jpg);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: 100% 400px;
@@ -151,7 +151,7 @@ a {
 
 .banner-tarjetas-dos {
     height: 200px;
-    background-image: url(/Assets/Imagenes/Image-five.jpg);
+    background-image: url(./Assets/Imagenes/Image-five.jpg);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: 100% 700px;
